@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/main-style.css">
+    <title>Codificador de mensagem</title>
+</head>
+<body>
+    <main class="conteudo__geral">
+        <header class="cabecalho">
+                <figure class="cabecalho__figure">
+                    <img class="cabecalho__figure__logo" src="./assets/images/logo-Headera1.svg" alt="Logo da Alura">
+                </figure>
+        </header>
+        <section class="inserindo__texto">
+            <div class="inserindo__texto__input">
+                <textarea name="caixa__texto" id="mensagem" rows="6" placeholder="Digite seu texto"></textarea>            
+            </div>
+            <div class="inserindo__texto__informativo">
+                <div id="mensagem__erro" class="mensagem__erro" ></div>
+                <div class="conteudo__codificador__informativo inserindo__texto__informativo__icon">
+                    <figure><img src="./assets/images/icon-exclamacao.svg" alt="" srcset=""> </figure>
+                    <p>Apenas letras minúsculas e sem acento</p>
+                </div>
+                <div class="btn">
+                    <a class="btn__dark__blue btn__form " onclick="validarCriptografiaTexto()">Criptografar</a>
+                    <a class="btn__light__blue btn__form " onclick="validarTextoDescriptografia()">Descriptografar</a>
+                </div>
+            </div>
+        </section>   
+        <section id="conteudo__resposta" class="conteudo__resposta">
+            <!-- todo conteudo da seção será alterado pelo texto criptografado e a baixo um botão para copiar o texto-->
+            <figure class="conteudo__resposta__imagem">
+                <img  class="conteudo__resposta__imagem__img" src="./assets/images/image-menino.svg" alt="">
+            </figure>
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p >Digite um texto que você deseja criptografar ou descriptografar.</p>
+            
+        </section>  
+           
+    </main>
+    <footer class="rodape">
+       
+        <p>&copy; 2024 - Desenvolvido por <strong>Rodnei Dias</strong></p>
+    </footer> 
+    <script src="./assets/script/app2.js"></script>
+    <script src="https://kit.fontawesome.com/65f22fe718.js" crossorigin="anonymous"></script>
+</body>
+</html>
