@@ -398,7 +398,7 @@ padding: 0 0.5%;
         width:  624px;
     }
     .conteudo__resposta{
-        min-height: 690px;
+        max-height: auto;
         width: 735px;
         max-width: 1047px;
         min-height: 133px;
