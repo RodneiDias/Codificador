@@ -401,7 +401,7 @@ padding: 0 0.5%;
         max-height: auto;
         width: 735px;
         max-width: 1047px;
-        min-height: 133px;
+        min-height: 8.3215rem;
         height: auto;
         justify-content: center;
     }
@@ -410,6 +410,9 @@ padding: 0 0.5%;
     }
     .conteudo__resposta__imagem__img{
         display: none;
+    }
+     .rodape{        
+        bottom: 0;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 690px) {
