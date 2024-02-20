@@ -408,6 +408,7 @@ padding: 0 0.5%;
     .conteudo__resposta textarea{
         max-height: auto;
         border-radius:1.5rem;
+        width: 100% ;
     }
     .conteudo__resposta__imagem__img{
         display: none;
