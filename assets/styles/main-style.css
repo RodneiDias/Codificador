@@ -132,14 +132,13 @@ padding: 1.5rem;
     padding: 3%;
     border: var(--color-white);
 }
-
 .conteudo__resposta textarea{
     border-radius:1.5rem;
     width: 100%  !important;
-    min-height:27.5rem;
-    height: 100% !important ;
-    max-height: auto;
-    resize: none;
+    height: 100%;
+   
+    /* max-height: auto; */
+       
     border: var(--color-white); 
           
 }
@@ -371,15 +370,14 @@ padding: 0 0.5%;
         border-radius: 32px;
         justify-content: center;
         box-shadow: 0 24px rgb(rgb(15, 15, 15), rgb(53, 53, 53), rgb(135, 135, 136));
-        resize: vertical;     
+        resize: vertical; 
+        padding: 1.5%;    
     }
     .conteudo__resposta textarea{
         border-radius:1.5rem;
         width: 100%  !important;
         height: 100% !important ;
-        min-height:17.5rem;
-        max-height: auto;
-        resize: none;
+        /* padding: 1.5rem; */
     }
     .conteudo__resposta__texto{
        border: var(--color-white);
@@ -420,7 +418,7 @@ padding: 0 0.5%;
         min-height: auto;
         max-height: auto;
         justify-content: center;
-        padding: 5%;
+        padding: 3%;
     }
     .conteudo__resposta textarea{
         min-height: min-content;
@@ -428,10 +426,6 @@ padding: 0 0.5%;
         width: 100%  !important;
         height: 100% !important ;
         min-height:17.5rem;
-        max-height: auto;
-        resize: none;
-        
-              
     }
     .conteudo__resposta__imagem__img{
         display: none;
@@ -466,12 +460,19 @@ padding: 0 0.5%;
         width: auto;
     }
     .conteudo__resposta{
-        min-width: 20rem;
-        width: 23.4375rem;
-        min-height: 8.3215rem;
-        height: auto;
+        width: 320px;
+        max-width: 690px;      
+        min-height: auto;
+        max-height: auto;
         justify-content: center;
-        padding: 5%;
+        padding: 3%;
+    }
+    .conteudo__resposta textarea{
+        min-height: min-content;
+        border-radius:1.5rem;
+        width: 100%  !important;
+        height: 100% !important ;
+        min-height:17.5rem;
     }
     .conteudo__resposta__texto{
         text-size-adjust: auto;
