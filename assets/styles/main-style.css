@@ -375,7 +375,6 @@ padding: 0 0.5%;
         resize: vertical;     
     }
     .conteudo__resposta textarea{
-        min-height: min-content;
         border-radius:1.5rem;
         width: 100%  !important;
         height: 100% !important ;
