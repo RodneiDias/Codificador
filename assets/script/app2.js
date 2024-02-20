@@ -163,7 +163,7 @@ function exibirMensagem(resultado) {
         mensagemSection.innerHTML = `
 
           
-                <textarea id="conteudo__resposta__texto" class="conteudo__resposta__texto" rows="15" readonly>${resultado.texto}</textarea>
+                <textarea id="conteudo__resposta__texto" class="conteudo__resposta__texto" rows="6" readonly>${resultado.texto}</textarea>
                 
                 <div class="btn">                
                     <a class="btn__copiar" onclick="copiarTexto()">Copiar</a>
