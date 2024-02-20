@@ -397,16 +397,17 @@ padding: 0 0.5%;
     .btn__copiar{
         width:  624px;
     }
-    .conteudo__resposta{
-        max-height: auto;
+    .conteudo__resposta{       
         width: 735px;
         max-width: 1047px;
         min-height: 8.3215rem;
-        height: auto;
+        max-height: auto;
         justify-content: center;
+        padding: 5%;
     }
     .conteudo__resposta textarea{
-        max-height: auto;        
+        max-height: auto;
+        border-radius:1.5rem;
     }
     .conteudo__resposta__imagem__img{
         display: none;
