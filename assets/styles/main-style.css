@@ -131,8 +131,15 @@ padding: 1.5rem;
     padding: 3%;
     border: var(--color-white);
 }
-.conteudo__resposta__novo textarea{
-    border: var(--color-white);   
+.conteudo__resposta textarea{
+    border: var(--color-white);  
+    min-height: min-content;
+    border-radius:1.5rem;
+    width: 100%  !important;
+    height: 100% !important ;
+    min-height:37.5rem;
+    max-height: auto;
+    resize: none; 
 }
 h2{
 color: var(--color-gray-500);
@@ -406,9 +413,13 @@ padding: 0 0.5%;
         padding: 5%;
     }
     .conteudo__resposta textarea{
-        max-height: auto;
+        min-height: min-content;
         border-radius:1.5rem;
-        width: 100% ;
+        width: 100%  !important;
+        height: 100% !important ;
+        min-height:17.5rem;
+        max-height: auto;
+        resize: none;
     }
     .conteudo__resposta__imagem__img{
         display: none;
