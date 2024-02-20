@@ -103,7 +103,8 @@ body{
     border-radius: 32px;
     justify-content: center;
     box-shadow: 0 24px rgb(rgb(15, 15, 15), rgb(53, 53, 53), rgb(135, 135, 136));
-    padding: 3%;    
+    padding: 3%;
+        
 }
 .conteudo__resposta__imagem{
 padding: 1.5rem;
@@ -131,15 +132,17 @@ padding: 1.5rem;
     padding: 3%;
     border: var(--color-white);
 }
+
 .conteudo__resposta textarea{
-    border: var(--color-white);  
     min-height: min-content;
     border-radius:1.5rem;
     width: 100%  !important;
     height: 100% !important ;
     min-height:37.5rem;
     max-height: auto;
-    resize: none; 
+    resize: none;
+    border: var(--color-white); 
+          
 }
 h2{
 color: var(--color-gray-500);
@@ -381,7 +384,9 @@ padding: 0 0.5%;
 @media screen and (min-width:691px) and (max-width:1047px){ 
     .conteudo__geral{
         flex-wrap: wrap;      
-        height: 100vh;        
+        height: auto;
+          
+            
      }
      .cabecalho{
        width: 100%;       
@@ -404,10 +409,10 @@ padding: 0 0.5%;
     .btn__copiar{
         width:  624px;
     }
-    .conteudo__resposta{       
+    .conteudo__resposta{
         width: 735px;
-        max-width: 1047px;
-        min-height: 8.3215rem;
+        max-width: 1047px;      
+        min-height: auto;
         max-height: auto;
         justify-content: center;
         padding: 5%;
@@ -420,11 +425,13 @@ padding: 0 0.5%;
         min-height:17.5rem;
         max-height: auto;
         resize: none;
+        
+              
     }
     .conteudo__resposta__imagem__img{
         display: none;
     }
-     .rodape{        
+    .rodape{        
         bottom: 0;
     }
 }
