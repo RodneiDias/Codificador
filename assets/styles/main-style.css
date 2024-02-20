@@ -374,6 +374,15 @@ padding: 0 0.5%;
         box-shadow: 0 24px rgb(rgb(15, 15, 15), rgb(53, 53, 53), rgb(135, 135, 136));
         resize: vertical;     
     }
+    .conteudo__resposta textarea{
+        min-height: min-content;
+        border-radius:1.5rem;
+        width: 100%  !important;
+        height: 100% !important ;
+        min-height:17.5rem;
+        max-height: auto;
+        resize: none;
+    }
     .conteudo__resposta__texto{
        border: var(--color-white);
        width: 100%;
@@ -385,8 +394,6 @@ padding: 0 0.5%;
     .conteudo__geral{
         flex-wrap: wrap;      
         height: auto;
-          
-            
      }
      .cabecalho{
        width: 100%;       
